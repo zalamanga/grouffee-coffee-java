@@ -100,3 +100,7 @@ Ini demo lokal dengan data sintetis. Untuk penggunaan publik diperlukan HTTPS/co
 ## Atribusi
 
 Footer sumber mencantumkan **Kelompok 8, 2023**, sementara penjelasan nama menyebut **Group Four Coffee**. Nama, arah visual, dan delapan gambar dipertahankan; perbedaan nomor kelompok dicatat tanpa menebak pembuatnya. Tidak ditemukan Git remote atau LICENSE pada sumber lokal yang diaudit. Lisensi tiap gambar belum didokumentasikan, dan repo ini tidak menambahkan klaim lisensi atau kepemilikan seluruh aset. Lihat [NOTICE](NOTICE).
+
+## Alur kode
+
+[Diagram alur, tanggung jawab file, dan batas penyimpanan](docs/CODE_FLOW.md).
