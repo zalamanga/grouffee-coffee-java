@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+  <display-name>Grouffee Coffee</display-name>
+  <session-config>
+    <session-timeout>30</session-timeout>
+    <cookie-config>
+      <name>GROUFFEE_SESSION</name>
+      <http-only>true</http-only>
+    </cookie-config>
+    <tracking-mode>COOKIE</tracking-mode>
+  </session-config>
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <url-pattern>*.jspf</url-pattern>
+      <page-encoding>UTF-8</page-encoding>
+      <default-content-type>text/html; charset=UTF-8</default-content-type>
+    </jsp-property-group>
+  </jsp-config>
+  <error-page><error-code>403</error-code><location>/WEB-INF/views/error.jsp</location></error-page>
+  <error-page><error-code>404</error-code><location>/WEB-INF/views/error.jsp</location></error-page>
+  <error-page><error-code>405</error-code><location>/WEB-INF/views/error.jsp</location></error-page>
+  <error-page><error-code>413</error-code><location>/WEB-INF/views/error.jsp</location></error-page>
+  <error-page><error-code>500</error-code><location>/WEB-INF/views/error.jsp</location></error-page>
+</web-app>

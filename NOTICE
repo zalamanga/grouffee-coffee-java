@@ -1,0 +1,23 @@
+Grouffee Coffee Java
+
+Proyek ini melanjutkan sumber lokal NetBeans bernama ttts. Halaman index.jsp
+asal mencantumkan copyright 2023 Kelompok 8. Penjelasan nama Grouffee pada
+halaman yang sama menyebut Group Four Coffee. Kedua keterangan dipertahankan
+sebagai catatan sumber; perbedaan nomor kelompok tidak disimpulkan ulang.
+Komentar beberapa JSP mencantumkan Author: ASUS, yang tampak sebagai nama
+komputer/pengguna dan tidak cukup untuk memastikan nama pembuat.
+
+Nama Grouffee Coffee, arah warna hangat, dan delapan berkas aset berikut
+dipertahankan tanpa perubahan isi dari ttts/web/images:
+coffebg.jpeg, coffee.clipart.png, cappuccino.png, americano.png,
+frappuccino.png, flatwhite.png, heartcoffee.png, croissant.png.
+
+Tidak ditemukan Git remote atau berkas lisensi pada sumber yang diaudit.
+Asal dan lisensi masing-masing gambar belum didokumentasikan. Perapihan ini
+tidak memberi lisensi baru atau mengklaim seluruh kode/aset sebagai karya
+pemilik akun penerbit. Tidak ada database atau data akun lama yang disalin.
+
+Struktur NetBeans/Ant, login hardcoded, SQL dalam JSP, alur email/OTP dan
+QR pembayaran contoh diganti dengan implementasi Maven Servlet/JSP/JDBC.
+Duplikat *_1 dan hasil build tidak dibawa ke repo baru. Nilai menu/harga
+dan akun bootstrap adalah data sintetis untuk demo lokal.
